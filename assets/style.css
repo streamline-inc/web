@@ -1,0 +1,120 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  max-height: 50px;
+  display: inline-block;
+}
+
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list-item {
+  list-style: none;
+}
+
+.large-image {
+  max-width: 100%
+}
+
+h2 {
+  font-size: 1.4rem;
+  text-decoration: underline;
+}
+
+h3 {
+  font-size: 1.2rem;
+  text-decoration: underline;
+}
+
+.values {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+div.values div.value {
+  width: calc(33.3% - 40px);
+  margin: 0px 7px;
+  padding: 3px;
+  border: 2px solid #0086fb88
+}
+
+.information-link {
+  font-size: 5pt;
+  margin-left: 10px;
+}
+
+.keyword {
+  text-decoration: italic;
+  font-size: 0.9rem;
+}
+
+.about-row {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.about {
+  width: 480px;
+}
+
+.about-label {
+  width: 120px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.about-content {
+  text-align: left;
+}
+
+hr {
+  border-style: none;
+  border-top: 4px solid #0086fb
+}
+
+.result-row {
+  flex-wrap: wrap;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+div.result-head div.result {
+  width: calc(25% - 20px);
+  margin: 0px 7px;
+  padding: 3px 7px;
+  background: #5be16144;
+}
+
+div.result {
+  width: calc(25% - 20px);
+  margin: 0px 7px;
+  padding: 3px 7px;
+  background: #3f9c4422;
+}
+div.result p {
+  margin-bottom: 0px;
+}
+
+footer {
+  height: 100px;
+  background: #aaaaaa44;
+  position: relative;
+}
+
+.footer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 80%;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
